@@ -14,15 +14,15 @@ while (index < names.length) {
     //we use a loop that executes as long as the number in index is smaller than the length of the names array.
     
   let upperCaseName = names[index].toUpperCase();
-  /*Line 13 accesses the name stored at names[index] and uses it to call the toUpperCase method.
+  /*Line 16 accesses the name stored at names[index] and uses it to call the toUpperCase method.
   That method returns the name in uppercase, which we assign to upperCaseName */
   
   upperNames.push(upperCaseName);
-  //Line 17 uses the push method for arrays to append the latest uppercase name to the upperNames array. 
+  //Line 20 uses the push method for arrays to append the latest uppercase name to the upperNames array. 
   
   
   index += 1;
-  /*line 15 increments the index by 1 after each iteration, which ensures that index < names.length becomes false
+  /*line 24 increments the index by 1 after each iteration, which ensures that index < names.length becomes false
   after the loop handles the last element.
 */
 }
